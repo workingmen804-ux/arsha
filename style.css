@@ -1,0 +1,58 @@
+.landing-section {
+  background-color: #37517e;
+  color: white;
+}
+
+.landing-section a {
+  color: white !important;
+}
+
+.dropdown-menu a {
+  color: black !important;
+}
+
+.image-animation {
+  animation: move 1s linear infinite alternate;
+}
+
+@keyframes move {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-7px);
+  }
+}
+/* ad */
+:root {
+  --main-color: #37517e;
+}
+
+.front-section {
+  background-color: var(--main-color);
+  color: white;
+}
+
+/* about */
+.text-blue {
+  color: var(--main-color);
+}
+
+.gray {
+  width: 12%;
+  height: 2px;
+  background-color: lightgray;
+  margin: auto;
+  position: relative;
+}
+
+.blue {
+  width: 50%;
+  height: 3px;
+  background-color: var(--bs-info);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
