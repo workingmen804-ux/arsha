@@ -1,5 +1,9 @@
+:root {
+  --main-color: #37517e;
+}
+
 .landing-section {
-  background-color: #37517e;
+  background-color: var(--main-color);
   color: white;
 }
 
@@ -24,31 +28,21 @@
     transform: translateY(-7px);
   }
 }
-/* ad */
-:root {
-  --main-color: #37517e;
-}
 
-.front-section {
-  background-color: var(--main-color);
-  color: white;
-}
-
-/* about */
 .text-blue {
-  color: var(--main-color);
+  color: #37517e;
 }
 
 .gray {
-  width: 12%;
-  height: 2px;
-  background-color: lightgray;
+  width: 150px;
+  height: 1px;
+  background-color: rgb(186, 186, 186);
   margin: auto;
   position: relative;
 }
 
 .blue {
-  width: 50%;
+  width: 40%;
   height: 3px;
   background-color: var(--bs-info);
   position: absolute;
